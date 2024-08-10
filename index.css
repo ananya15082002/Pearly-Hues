@@ -727,7 +727,7 @@
 .inner-content-parent {
   flex: 1;
   flex-direction: column;
-  gap: 83px;
+  gap: var(--gap-64xl);
 }
 .main-content1 {
   align-self: stretch;
@@ -903,7 +903,7 @@
 .service-container1 {
   flex: 1;
   flex-direction: column;
-  gap: 10.6px;
+  gap: var(--gap-2xs-6);
 }
 .policy-list-content,
 .refund-policy-container,
@@ -1000,7 +1000,7 @@
 }
 @media screen and (max-width: 1125px) {
   .header-container {
-    padding-top: 120px;
+    padding-top: var(--padding-101xl);
     box-sizing: border-box;
   }
   .card-grid-content-list2 {
@@ -1010,7 +1010,7 @@
 }
 @media screen and (max-width: 800px) {
   .header-container {
-    padding-top: 78px;
+    padding-top: var(--padding-59xl);
     box-sizing: border-box;
   }
   .heading2 {
@@ -1034,7 +1034,7 @@
     line-height: 56px;
   }
   .products {
-    gap: 53px;
+    gap: var(--gap-34xl);
   }
   .happy-customers {
     font-size: var(--font-size-21xl);
@@ -1061,7 +1061,7 @@
     box-sizing: border-box;
   }
   .home-page {
-    gap: 76px;
+    gap: var(--gap-57xl);
   }
 }
 @media screen and (max-width: 450px) {
@@ -1134,6 +1134,6 @@
     line-height: 25px;
   }
   .home-page {
-    gap: 38px;
+    gap: var(--gap-19xl);
   }
 }
