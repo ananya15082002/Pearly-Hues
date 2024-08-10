@@ -138,7 +138,7 @@
 .input-field-parent {
   flex-direction: row;
   justify-content: center;
-  gap: 42px;
+  gap: var(--gap-23xl);
   max-width: 100%;
 }
 .address-form,
@@ -903,7 +903,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: 9px;
+  gap: var(--gap-4xs);
 }
 .calculations-container-inner,
 .subtotal-and-shipping-parent {
@@ -987,7 +987,8 @@
   border-radius: 0 0 var(--br-smi) var(--br-smi);
   background-color: var(--background-default-default);
   align-items: flex-end;
-  padding: var(--padding-2xs) 68px var(--padding-2xs) var(--padding-28xl);
+  padding: var(--padding-2xs) var(--padding-49xl) var(--padding-2xs)
+    var(--padding-28xl);
   box-sizing: border-box;
   gap: var(--gap-lg);
   z-index: 1;
@@ -1289,7 +1290,7 @@
 @media screen and (max-width: 1300px) {
   .order-summary-group {
     padding-top: var(--padding-xl);
-    padding-bottom: 44px;
+    padding-bottom: var(--padding-25xl);
     box-sizing: border-box;
     min-width: 100%;
   }
@@ -1321,7 +1322,8 @@
     flex-wrap: wrap;
   }
   .delivery-address-group {
-    padding: var(--padding-xl) 63px var(--padding-12xl) 38px;
+    padding: var(--padding-xl) var(--padding-44xl) var(--padding-12xl)
+      var(--padding-19xl);
     box-sizing: border-box;
   }
   .delivery-address {

@@ -9,6 +9,7 @@ body {
   --font-playfair-display: "Playfair Display";
   --font-inika: Inika;
   --font-roboto: Roboto;
+  --font-orelega-one: "Orelega One";
 
   /* font sizes */
   --single-line-body-base-size: 16px;
@@ -28,6 +29,9 @@ body {
   --font-size-31xl: 50px;
   --font-size-11xl: 30px;
   --font-size-xl: 20px;
+  --font-size-16xl: 35px;
+  --font-size-2xl: 21px;
+  --font-size-9xl: 28px;
 
   /* Colors */
   --color-peachpuff: rgba(255, 201, 168, 0.8);
@@ -48,6 +52,7 @@ body {
   --background-danger-tertiary-hover: #fdd3d0;
   --border-danger-secondary: #c00f0c;
   --background-danger-secondary-hover: #fcb3ad;
+  --color-azure: #e5f5f1;
 
   /* Spacing */
   --radius-200: 8px;
@@ -63,6 +68,7 @@ body {
   --radius-100: 4px;
 
   /* Gaps */
+  --gap-24xl: 43px;
   --gap-2xl: 21px;
   --gap-5xl: 24px;
   --gap-base: 16px;
@@ -76,20 +82,30 @@ body {
   --gap-4xl: 23px;
   --gap-lg: 18px;
   --gap-11xs: 2px;
+  --gap-4xs: 9px;
   --gap-7xs-9: 5.9px;
   --gap-16xl-5: 35.5px;
   --gap-mid-7: 17.7px;
   --gap-xs-8: 11.8px;
   --gap-12xs: 1px;
+  --gap-23xl: 42px;
   --gap-7xl: 26px;
   --gap-13xl: 32px;
   --gap-45xl: 64px;
   --gap-9xl: 28px;
   --gap-22xl: 41px;
   --gap-18xl: 37px;
+  --gap-57xl: 76px;
+  --gap-19xl: 38px;
+  --gap-2xs-6: 10.6px;
+  --gap-64xl: 83px;
   --gap-29xl: 48px;
   --gap-xs: 12px;
   --gap-9xs: 4px;
+  --gap-34xl: 53px;
+  --gap-10xl-7: 29.7px;
+  --gap-14xl: 33px;
+  --gap-67xl: 86px;
 
   /* Paddings */
   --padding-xl: 20px;
@@ -97,6 +113,7 @@ body {
   --padding-4xl: 23px;
   --padding-3xs: 10px;
   --padding-xs: 12px;
+  --padding-sm: 14px;
   --padding-7xs: 6px;
   --padding-base: 16px;
   --padding-mini: 15px;
@@ -114,7 +131,9 @@ body {
   --padding-17xl: 36px;
   --padding-2xs: 11px;
   --padding-18xl: 37px;
+  --padding-25xl: 44px;
   --padding-10xl: 29px;
+  --padding-49xl: 68px;
   --padding-28xl: 47px;
   --padding-15xl: 34px;
   --padding-lgi: 19px;
@@ -127,6 +146,8 @@ body {
   --padding-46xl: 65px;
   --padding-23xl: 42px;
   --padding-smi: 13px;
+  --padding-44xl: 63px;
+  --padding-19xl: 38px;
   --padding-11xs: 2px;
   --padding-9xl: 28px;
   --padding-5xl: 24px;
@@ -136,6 +157,12 @@ body {
   --padding-6xl: 25px;
   --padding-37xl: 56px;
   --padding-13xl: 32px;
+  --padding-59xl: 78px;
+  --padding-101xl: 120px;
+  --padding-52xl: 71px;
+  --padding-58xl-2: 77.2px;
+  --padding-40xl: 59px;
+  --padding-30xl: 49px;
 
   /* Border radiuses */
   --br-5xs: 8px;
@@ -145,4 +172,5 @@ body {
   --br-3xs: 10px;
   --br-9980xl: 9999px;
   --br-21xl: 40px;
+  --br-31xl: 50px;
 }
