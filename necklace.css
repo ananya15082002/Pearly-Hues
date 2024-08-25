@@ -1,0 +1,874 @@
+.necklace-child,
+.necklace-item {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.necklace-child {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+.necklace-item {
+  margin-top: -282px;
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+}
+.necklace1 {
+  margin: 0;
+}
+.treasure-the-moments2 {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+}
+.necklace-treasure-the-container {
+  width: 1004px;
+  height: 112px;
+  position: relative;
+  line-height: 140%;
+  font-family: var(--font-adamina);
+  color: var(--color-black);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  font-size: var(--font-size-31xl);
+}
+.image-icon92 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.text180 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+}
+.text179 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-strong169 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 22px;
+  white-space: nowrap;
+}
+.text-strong168 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-small169 {
+  position: relative;
+  line-height: 140%;
+}
+.body92,
+.product-info-card83,
+.text-small168 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-small168 {
+  display: none;
+  flex-direction: row;
+  font-size: var(--body-small-size);
+  color: var(--text-default-secondary);
+}
+.body92,
+.product-info-card83 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+}
+.product-info-card83 {
+  height: 347px;
+  box-shadow: 10px 12px 7px rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  padding: var(--space-400) var(--padding-mini);
+  gap: var(--space-400);
+  min-width: 240px;
+  cursor: pointer;
+}
+.icon118,
+.space-dividers-icon {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.icon118 {
+  width: 24px;
+  height: 48px;
+  right: 13px;
+  bottom: 20px;
+}
+.space-dividers-icon {
+  width: 209px;
+  height: 247px;
+  top: 16px;
+  right: 15px;
+  object-fit: cover;
+}
+.product-info-card84,
+.small-card-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.small-card-row {
+  flex: 1;
+  position: relative;
+  min-width: 235px;
+  max-width: 240px;
+}
+.product-info-card84 {
+  align-self: stretch;
+  height: 347px;
+  box-shadow: 10px 12px 7px rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  padding: var(--space-400) var(--padding-mini);
+  gap: var(--space-400);
+  min-width: 240px;
+}
+.icon119 {
+  width: 24px;
+  height: 48px;
+  right: 16px;
+  bottom: 20px;
+}
+.icon119,
+.icon120,
+.icon121 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.icon120 {
+  width: 208px;
+  height: 245px;
+  top: 16px;
+  left: calc(50% - 104px);
+  object-fit: cover;
+}
+.icon121 {
+  width: 24px;
+  height: 48px;
+  right: 15px;
+  bottom: 18px;
+}
+.icon122 {
+  width: 207px;
+  height: 250px;
+  top: 16px;
+  left: 16px;
+  object-fit: cover;
+}
+.icon122,
+.icon123,
+.icon124 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.icon123 {
+  width: 24px;
+  height: 48px;
+  right: 17px;
+  bottom: 18px;
+}
+.icon124 {
+  width: 209px;
+  height: 245px;
+  top: 16px;
+  left: 15px;
+  object-fit: cover;
+}
+.product-info-card87 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 10px 12px 7px rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-400) var(--padding-mini);
+  gap: var(--space-400);
+  min-width: 240px;
+  cursor: pointer;
+}
+.icon125 {
+  position: absolute;
+  top: 281px;
+  left: 200px;
+  width: 24px;
+  height: 48px;
+  z-index: 1;
+}
+.card-row3 {
+  height: 347px;
+  flex: 1;
+  position: relative;
+  min-width: 235px;
+  max-width: 240px;
+}
+.info-card-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-xl);
+}
+.icon126,
+.icon127,
+.icon128 {
+  position: absolute;
+  top: 281px;
+  left: 201px;
+  width: 24px;
+  height: 48px;
+  z-index: 1;
+}
+.icon127,
+.icon128 {
+  left: 198px;
+}
+.icon128 {
+  top: 284px;
+  left: 201px;
+}
+.product-info-card91 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 10px 12px 7px rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  width: 240px;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--space-400) var(--padding-mini);
+  gap: var(--space-400);
+  min-width: 240px;
+  cursor: pointer;
+}
+.small-card-row2 {
+  height: 347px;
+  flex: 1;
+  position: relative;
+  min-width: 240px;
+  max-width: 245px;
+}
+.icon130 {
+  position: absolute;
+  top: 279px;
+  left: 197px;
+  width: 24px;
+  height: 48px;
+  z-index: 1;
+}
+.frame-parent18 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-lgi);
+}
+.product-content,
+.product-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.product-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.product-content-wrapper {
+  width: 1381px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-30xl) 46px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}
+.frame-child10 {
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-azure);
+}
+.shop-more-collections2 {
+  margin: 0;
+  width: 1130px;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.bracelets-container,
+.rectangle-parent3 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 35px;
+  position: relative;
+}
+.bracelets-container {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.frame-child11,
+.icon131 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame-child11 {
+  border-radius: 50%;
+}
+.icon131 {
+  border-radius: var(--br-141xl);
+  z-index: 1;
+}
+.ellipse-parent1 {
+  height: 329px;
+  width: 343px;
+  position: relative;
+  max-width: 100%;
+}
+.blank-line34 {
+  margin: 0;
+  font-size: var(--heading-size);
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+}
+.bold-statements-for2,
+.earrings4 {
+  position: relative;
+  line-height: 140%;
+}
+.earrings4 {
+  width: 272px;
+  height: 50px;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.bold-statements-for2 {
+  font-size: var(--font-size-xl);
+}
+.earrings-content,
+.earrings-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.earrings-description {
+  align-self: stretch;
+  flex-direction: row;
+}
+.blank-line35 {
+  margin: 0;
+  font-size: var(--single-line-body-base-size);
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+}
+.bracelets-and-rings-container2 {
+  align-self: stretch;
+  height: 49px;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.bracelets-and-rings-container2,
+.to-stay-in2 {
+  position: relative;
+  line-height: 140%;
+}
+.bracelets-parent,
+.to-stay-in-style-everyday-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.to-stay-in-style-everyday-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-4xl) 0 var(--padding-mini);
+  font-size: var(--font-size-xl);
+}
+.bracelets-parent {
+  width: 272px;
+  flex-direction: column;
+}
+.earrings-container,
+.earrings-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.earrings-container {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 52px;
+}
+.earrings-container-wrapper {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-30xl) var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+  min-width: 358px;
+}
+.icon132 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-141xl);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent2 {
+  height: 329px;
+  width: 344px;
+  position: relative;
+  max-width: 100%;
+}
+.inner-categories-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.product-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 86px;
+  max-width: 100%;
+}
+.product-cards-wrapper {
+  width: 1399px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-48xl) var(--padding-111xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-adamina);
+}
+.frame-child13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--background-brand-default);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.all-copyrights-reserved6 {
+  position: absolute;
+  top: 129.3px;
+  left: 545.8px;
+  font-size: var(--font-size-xl-6);
+  line-height: 31.9px;
+  display: inline-block;
+  width: 554.9px;
+  height: 31.9px;
+  z-index: 1;
+}
+.information13 {
+  margin: 0;
+  font-weight: 600;
+}
+.blank-line36 {
+  margin: 0;
+  font-size: var(--font-size-lgi-8);
+}
+.information12 {
+  align-self: stretch;
+  height: 37.7px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.privacy-policy6,
+.refund-policy15 {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.privacy-policy6 {
+  align-self: stretch;
+  line-height: 28px;
+}
+.refund-policy15 {
+  flex: 1;
+  line-height: 140%;
+}
+.policies2,
+.refund-policy-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.refund-policy-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) 0 var(--padding-10xs);
+}
+.policies2 {
+  flex-direction: column;
+  gap: var(--gap-29xl-6);
+  flex-shrink: 0;
+}
+.service12 {
+  height: 31.9px;
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.policies-parent,
+.service-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.service-wrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 71px 0 var(--padding-49xl);
+}
+.policies-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini-3);
+}
+.information-parent-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-mid);
+  font-size: var(--font-size-lgi-8);
+}
+.information-parent1 {
+  position: absolute;
+  top: 45.2px;
+  left: 1084.6px;
+  width: 248.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl-9);
+}
+.instagram-icon6 {
+  height: 35.3px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.follow-us8 {
+  width: 128px;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 2;
+}
+.facebook-icon6,
+.linkedin-icon6 {
+  height: 35.3px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 35px;
+  z-index: 2;
+}
+.linkedin-icon6 {
+  z-index: 3;
+}
+.social-icons-container1,
+.social-icons1 {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social-icons1 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.social-icons-container1 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-2xl);
+}
+.follow-container1,
+.social-icons-container1,
+.socials {
+  display: flex;
+  justify-content: flex-start;
+}
+.follow-container1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-lgi-2);
+}
+.socials {
+  width: 229px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xs);
+}
+.contact-us6 {
+  margin: 0;
+  font-size: var(--font-size-3xl-3);
+  font-weight: 600;
+}
+.contact-us-pearlyhuesgmailco-container6 {
+  align-self: stretch;
+  height: 261px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contact-parent,
+.socials-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contact-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: 22.8px 0 0;
+  box-sizing: border-box;
+  min-width: 246px;
+  margin-left: -23.2px;
+  font-size: var(--font-size-lgi-8);
+}
+.socials-parent {
+  position: absolute;
+  top: 21.2px;
+  left: 56.2px;
+  width: 583.8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  row-gap: 20px;
+}
+.rectangle-parent4 {
+  align-self: stretch;
+  height: 378px;
+  position: relative;
+  background-color: var(--background-brand-default);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-3xl-3);
+  color: var(--background-default-default);
+  font-family: var(--font-playfair-display);
+}
+.necklace {
+  width: 100%;
+  height: 2349px;
+  position: relative;
+  background-color: var(--color-peachpuff);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 281px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-75xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .product-content-wrapper {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .product-cards-wrapper {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .necklace {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .necklace-treasure-the-container {
+    font-size: var(--font-size-7xl);
+    line-height: 56px;
+  }
+  .product-content-wrapper {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .shop-more-collections2 {
+    font-size: var(--font-size-9xl);
+    line-height: 39px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .earrings-container {
+    gap: var(--gap-7xl);
+  }
+  .earrings-container-wrapper {
+    min-width: 100%;
+  }
+  .product-cards {
+    gap: var(--gap-24xl);
+  }
+  .product-cards-wrapper {
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent4 {
+    height: auto;
+    min-height: 378;
+  }
+  .necklace {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .necklace-treasure-the-container {
+    font-size: var(--font-size-lgi);
+    line-height: 42px;
+  }
+  .product-content-wrapper {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .shop-more-collections2 {
+    font-size: var(--font-size-2xl);
+    line-height: 29px;
+  }
+  .earrings4 {
+    font-size: var(--font-size-lgi);
+    line-height: 34px;
+  }
+  .bold-statements-for2,
+  .to-stay-in2 {
+    font-size: var(--single-line-body-base-size);
+    line-height: 22px;
+  }
+  .product-cards {
+    gap: var(--gap-2xl);
+  }
+  .all-copyrights-reserved6 {
+    font-size: var(--single-line-body-base-size);
+    line-height: 23px;
+  }
+  .contact-us-pearlyhuesgmailco-container6,
+  .follow-us8,
+  .information12 {
+    font-size: var(--font-size-lg);
+    line-height: 25px;
+  }
+  .contact-parent {
+    margin-left: 0;
+  }
+  .necklace {
+    gap: var(--gap-4xl);
+  }
+}
